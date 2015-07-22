@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Interface module for expanding top search section.
+ */
+
+/**
+ * Implements hook_init().
+ */
+function easyddb_search_expand_init() {
+
+  $module_path = drupal_get_path('module', 'easyddb_search_expand');
+  drupal_add_js($module_path . '/js/easyddb_search_expand.js', 'file');
+}
