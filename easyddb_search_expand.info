@@ -1,4 +1,4 @@
-name = easyDDB top search expand
+name = easyOPAC top search expand
 description = Expands top search section on all pages.
 package = easyOPAC
 version = "7.x-3.0.2"
