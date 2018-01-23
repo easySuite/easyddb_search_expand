@@ -1,4 +1,4 @@
-easyDDB top search expand
+easyOPAC top search expand
 ==========
 
 Expand search block form on all pages by default.
