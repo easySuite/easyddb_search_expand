@@ -1,0 +1,99 @@
+
+/* Extend search form on all pages and hidden button extend */
+.search-form-extended.not-front.admin-menu-with-shortcuts .site-header .header-inner .pane-search-form, .search-form-extended.not-front.toolbar .site-header .header-inner .pane-search-form, .search-form-extended.page-search.admin-menu-with-shortcuts .site-header .header-inner .pane-search-form, .search-form-extended.page-search.toolbar .site-header .header-inner .pane-search-form {
+  top: 129px;
+}
+
+.search-form-extended.not-front .site-header .header-inner .pane-search-form,
+.search-form-extended.page-search .site-header .header-inner .pane-search-form {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+  top: 64px;
+}
+
+@media screen and (max-width: 950px) {
+  .search-form-extended.not-front .site-header .header-inner .pane-search-form,
+  .search-form-extended.page-search .site-header .header-inner .pane-search-form {
+    top: 148px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .search-form-extended.not-front.mobile-search-is-open,
+  .search-form-extended.page-search.mobile-search-is-open {
+    box-shadow: none;
+  }
+}
+
+.search-form-extended.not-front.admin-menu .site-header .header-inner .pane-search-form,
+.search-form-extended.page-search.admin-menu .site-header .header-inner .pane-search-form {
+  top: 93px;
+}
+
+.search-form-extended.not-front .site-header .header-inner .search-extended-button,
+.search-form-extended.page-search .site-header .header-inner .search-extended-button {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .search-form-extended.not-front .site-header .header-inner .pane-search-form,
+  .search-form-extended.page-search .site-header .header-inner .pane-search-form {
+    box-shadow: none;
+  }
+}
+
+.search-form-extended.not-front.admin-menu .site-header > .navigation-wrapper {
+  top: 175px;
+}
+
+.search-form-extended.not-front .site-header > .navigation-wrapper {
+  top: 148px;
+}
+
+body.search-form-extended .page-search,
+body.search-form-extended .not-front,
+body.search-form-extended .front {
+  padding-top: 213px;
+}
+
+@media screen and (max-width: 950px) {
+  body.search-form-extended .page-search,
+  body.search-form-extended .not-front,
+  body.search-form-extended .front {
+    padding-top: 148px;
+  }
+}
+
+body.search-form-extended .content-wrapper .pane-content .default-panel-layout .left-and-main-content,
+body.search-form-extended .content-wrapper .pane-content .ding2-site-template .panel-pane .panel-pane-inner {
+  padding-top: 90px;
+}
+
+@media screen and (max-width: 1100px) {
+  body.search-form-extended .content-wrapper .pane-content .default-panel-layout .left-and-main-content,
+  body.search-form-extended .content-wrapper .pane-content .ding2-site-template .panel-pane .panel-pane-inner {
+    padding-top: 40px;
+  }
+}
+body.search-form-extended .page-search.has-second-level-menu,
+body.search-form-extended .not-front.has-second-level-menu,
+body.search-form-extended .front.has-second-level-menu {
+  padding-top: 278px;
+}
+
+@media screen and (max-width: 950px) {
+  body.search-form-extended .page-search.has-second-level-menu,
+  body.search-form-extended .not-front.has-second-level-menu,
+  body.search-form-extended .front.has-second-level-menu {
+    padding-top: 148px;
+  }
+}
+
+body.search-form-extended .page-search.has-second-level-menu .default-panel-layout .left-and-main-content,
+body.search-form-extended .page-search.has-second-level-menu .ding2-site-template .panel-pane .panel-pane-inner,
+body.search-form-extended .not-front.has-second-level-menu .default-panel-layout .left-and-main-content,
+body.search-form-extended .not-front.has-second-level-menu .ding2-site-template .panel-pane .panel-pane-inner,
+body.search-form-extended .front.has-second-level-menu .default-panel-layout .left-and-main-content,
+body.search-form-extended .front.has-second-level-menu .ding2-site-template .panel-pane .panel-pane-inner,
+body.search-form-extended.page-arrangementer .content-wrapper .pane-content .default-panel-layout .left-and-main-content {
+  padding-top: 40px;
+}
