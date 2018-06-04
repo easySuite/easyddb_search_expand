@@ -1,7 +1,15 @@
 
 /* Extend search form on all pages and hidden button extend */
-.search-form-extended.not-front.admin-menu-with-shortcuts .site-header .header-inner .pane-search-form, .search-form-extended.not-front.toolbar .site-header .header-inner .pane-search-form, .search-form-extended.page-search.admin-menu-with-shortcuts .site-header .header-inner .pane-search-form, .search-form-extended.page-search.toolbar .site-header .header-inner .pane-search-form {
+.search-form-extended.not-front.admin-menu-with-shortcuts .site-header .header-inner .pane-search-form,
+.search-form-extended.not-front.toolbar .site-header .header-inner .pane-search-form,
+.search-form-extended.page-search.admin-menu-with-shortcuts .site-header .header-inner .pane-search-form,
+.search-form-extended.page-search.toolbar .site-header .header-inner .pane-search-form {
   top: 129px;
+}
+
+.search-form-extended.admin-menu .site-header>.navigation-wrapper .navigation-inner .pane-menu-block-main-menu-second-level,
+.search-form-extended .site-header>.navigation-wrapper .navigation-inner .pane-menu-block-main-menu-second-level {
+  top: 259px;
 }
 
 .search-form-extended.not-front .site-header .header-inner .pane-search-form,
@@ -95,5 +103,5 @@ body.search-form-extended .not-front.has-second-level-menu .ding2-site-template 
 body.search-form-extended .front.has-second-level-menu .default-panel-layout .left-and-main-content,
 body.search-form-extended .front.has-second-level-menu .ding2-site-template .panel-pane .panel-pane-inner,
 body.search-form-extended.page-arrangementer .content-wrapper .pane-content .default-panel-layout .left-and-main-content {
-  padding-top: 40px;
+  padding-top: 90px;
 }
