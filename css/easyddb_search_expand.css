@@ -7,9 +7,13 @@
   top: 129px;
 }
 
-.search-form-extended.admin-menu .site-header>.navigation-wrapper .navigation-inner .pane-menu-block-main-menu-second-level,
-.search-form-extended .site-header>.navigation-wrapper .navigation-inner .pane-menu-block-main-menu-second-level {
-  top: 259px;
+@media screen and (min-width: 950px) {
+  .admin-menu .site-header>.navigation-wrapper .navigation-inner .pane-menu-block-main-menu-second-level {
+    top: 258px;
+  }
+  .search-form-extended .site-header>.navigation-wrapper .navigation-inner .pane-menu-block-main-menu-second-level {
+    top: 232px;
+  }
 }
 
 .search-form-extended.not-front .site-header .header-inner .pane-search-form,
