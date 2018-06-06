@@ -115,3 +115,7 @@ body.search-form-extended.node-type-ding-event .node-full,
 body.search-form-extended .content-wrapper .pane-content .ding2-site-template .panel-pane .panel-pane-inner {
   padding-top: 120px;
 }
+
+body.not-front.search-form-extended .content-wrapper .pane-content .frontpage-layout {
+  padding-top: 80px;
+}
