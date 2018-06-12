@@ -112,26 +112,24 @@ body.admin-menu.node-type-ding-library.search-form-extended .content-wrapper .pa
   padding: 0;
 }
 
-body.admin-menu.search-form-extended.node-type-ding-news .pane-content .content-inner,
-body.admin-menu.search-form-extended.node-type-ding-event .pane-content .content-inner,
-body.admin-menu.search-form-extended.node-type-ding-library .pane-content .content-inner,
-body.admin-menu.search-form-extended.page-taxonomy .pane-content .content-inner {
+body.admin-menu.search-form-extended.page-node .pane-content .content-inner,
+body.search-form-extended.page-node .pane-content .content-inner,
+body.admin-menu.search-form-extended.page-taxonomy .pane-content .content-inner,
+body.admin-menu.not-front.search-form-extended .content-wrapper .pane-content .frontpage-layout {
   margin-top: 0;
+  padding-top: 0;
 }
 
 body.not-front.search-form-extended .content-wrapper .pane-content .frontpage-layout {
   padding-top: 80px;
 }
 
-body.admin-menu.search-form-extended.node-type-ding-news .content-inner,
-body.admin-menu.search-form-extended.node-type-ding-event  .content-inner,
-body.admin-menu.search-form-extended.node-type-ding-library .content-inner,
+body.admin-menu.search-form-extended.page-node .content-inner,
 body.admin-menu.search-form-extended.page-taxonomy .content-inner {
   margin-top: 120px;
 }
 
-body.search-form-extended.node-type-ding-news .content-inner,
-body.search-form-extended.node-type-ding-event  .content-inner,
+body.search-form-extended .page-node .content-inner,
 body.search-form-extended .content-wrapper .pane-content .ding2-site-template .panel-pane .panel-pane-inner {
   margin-top: 90px;
 }
