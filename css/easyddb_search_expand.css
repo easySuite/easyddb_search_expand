@@ -129,7 +129,7 @@ body.admin-menu.search-form-extended.page-taxonomy .content-inner {
   margin-top: 120px;
 }
 
-body.search-form-extended .page-node .content-inner,
+body.search-form-extended.page-node .content-inner,
 body.search-form-extended .content-wrapper .pane-content .ding2-site-template .panel-pane .panel-pane-inner {
   margin-top: 90px;
 }
