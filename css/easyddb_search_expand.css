@@ -101,8 +101,7 @@ body.search-form-extended .not-front.has-second-level-menu .default-panel-layout
 body.search-form-extended .not-front.has-second-level-menu .ding2-site-template .panel-pane .panel-pane-inner,
 body.search-form-extended .front.has-second-level-menu .default-panel-layout .left-and-main-content,
 body.search-form-extended .front.has-second-level-menu .ding2-site-template .panel-pane .panel-pane-inner,
-body.search-form-extended.page-arrangementer .content-wrapper .pane-content .default-panel-layout .left-and-main-content,
-body.search-form-extended .content-wrapper .pane-content .default-panel-layout .left-and-main-content .layout-wrapper {
+body.search-form-extended.page-arrangementer .content-wrapper .pane-content .default-panel-layout .left-and-main-content {
   padding-top: 60px;
 }
 
