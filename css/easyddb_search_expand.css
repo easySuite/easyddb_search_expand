@@ -1,12 +1,3 @@
-
-/* Extend search form on all pages and hidden button extend */
-.search-form-extended.not-front.admin-menu-with-shortcuts .site-header .header-inner .pane-search-form,
-.search-form-extended.not-front.toolbar .site-header .header-inner .pane-search-form,
-.search-form-extended.page-search.admin-menu-with-shortcuts .site-header .header-inner .pane-search-form,
-.search-form-extended.page-search.toolbar .site-header .header-inner .pane-search-form {
-  top: 129px;
-}
-
 @media screen and (min-width: 950px) {
   .not-front.admin-menu .site-header>.navigation-wrapper .navigation-inner .pane-menu-block-main-menu-second-level {
     top: 258px;
@@ -27,11 +18,11 @@
   .search-form-extended.page-search .site-header .header-inner .pane-search-form {
     top: 148px;
   }
-}
 
-@media screen and (max-width: 950px) {
   .search-form-extended.not-front.mobile-search-is-open,
-  .search-form-extended.page-search.mobile-search-is-open {
+  .search-form-extended.page-search.mobile-search-is-open,
+  .search-form-extended.not-front .site-header .header-inner .pane-search-form,
+  .search-form-extended.page-search .site-header .header-inner .pane-search-form {
     box-shadow: none;
   }
 }
@@ -41,16 +32,8 @@
   top: 93px;
 }
 
-.search-form-extended.not-front .site-header .header-inner .search-extended-button,
-.search-form-extended.page-search .site-header .header-inner .search-extended-button {
+.search-form-extended .header-inner .search-extended-button {
   display: none;
-}
-
-@media screen and (max-width: 950px) {
-  .search-form-extended.not-front .site-header .header-inner .pane-search-form,
-  .search-form-extended.page-search .site-header .header-inner .pane-search-form {
-    box-shadow: none;
-  }
 }
 
 .search-form-extended.not-front.admin-menu .site-header > .navigation-wrapper {
@@ -61,74 +44,15 @@
   top: 148px;
 }
 
-body.search-form-extended .page-search,
-body.search-form-extended .not-front,
-body.search-form-extended .front {
-  padding-top: 213px;
+body.search-form-extended .ding2-site-template .site-header + .content-wrapper {
+  margin-top: 70px;
 }
 
-@media screen and (max-width: 950px) {
-  body.search-form-extended .page-search,
-  body.search-form-extended .not-front,
-  body.search-form-extended .front {
-    padding-top: 148px;
-  }
+body.search-form-extended.admin-menu .ding2-site-template .site-header + .content-wrapper {
+  margin-top: 95px;
 }
 
-@media screen and (max-width: 1100px) {
-  body.search-form-extended .content-wrapper .pane-content .default-panel-layout .left-and-main-content,
-  body.search-form-extended .content-wrapper .pane-content .ding2-site-template .panel-pane .panel-pane-inner {
-    padding-top: 40px;
-  }
-}
-body.search-form-extended .page-search.has-second-level-menu,
-body.search-form-extended .not-front.has-second-level-menu,
-body.search-form-extended .front.has-second-level-menu {
-  padding-top: 278px;
-}
-
-@media screen and (max-width: 950px) {
-  body.search-form-extended .page-search.has-second-level-menu,
-  body.search-form-extended .not-front.has-second-level-menu,
-  body.search-form-extended .front.has-second-level-menu {
-    padding-top: 148px;
-  }
-}
-
-body.search-form-extended .page-search.has-second-level-menu .default-panel-layout .left-and-main-content,
-body.search-form-extended .page-search.has-second-level-menu .ding2-site-template .panel-pane .panel-pane-inner,
-body.search-form-extended .not-front.has-second-level-menu .default-panel-layout .left-and-main-content,
-body.search-form-extended .not-front.has-second-level-menu .ding2-site-template .panel-pane .panel-pane-inner,
-body.search-form-extended .front.has-second-level-menu .default-panel-layout .left-and-main-content,
-body.search-form-extended .front.has-second-level-menu .ding2-site-template .panel-pane .panel-pane-inner,
-body.search-form-extended.page-arrangementer .content-wrapper .pane-content .default-panel-layout .left-and-main-content {
-  padding-top: 60px;
-}
-
-body.search-form-extended .front .content-wrapper .pane-content .frontpage-layout 
-body.search-form-extended.page-search .front .content-wrapper .pane-content .frontpage-layout,
-body.admin-menu.node-type-ding-library.search-form-extended .content-wrapper .pane-content .default-panel-layout .left-and-main-content .layout-wrapper  {
-  padding: 0;
-}
-
-body.admin-menu.search-form-extended.page-node .pane-content .content-inner,
-body.search-form-extended.page-node .pane-content .content-inner,
-body.admin-menu.search-form-extended.page-taxonomy .pane-content .content-inner,
-body.admin-menu.not-front.search-form-extended .content-wrapper .pane-content .frontpage-layout {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-body.not-front.search-form-extended .content-wrapper .pane-content .frontpage-layout {
-  padding-top: 80px;
-}
-
-body.admin-menu.search-form-extended.page-node .content-inner,
-body.admin-menu.search-form-extended.page-taxonomy .content-inner {
-  margin-top: 120px;
-}
-
-body.search-form-extended.page-node .content-inner,
-body.search-form-extended .content-wrapper .pane-content .ding2-site-template .panel-pane .panel-pane-inner {
-  margin-top: 90px;
+body.search-form-extended.front .ding2-site-template .site-header + .content-wrapper,
+body.search-form-extended.page-search .ding2-site-template .site-header + .content-wrapper {
+  margin-top: 0px;
 }
