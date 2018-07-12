@@ -4,3 +4,4 @@ package = easyOPAC
 version = 7.x-4.0.2
 core = 7.x
 scripts[] = js/easyddb_search_expand.js
+stylesheets[all][] = css/easyddb_search_expand.css
