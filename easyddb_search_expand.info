@@ -1,7 +1,7 @@
 name = easyOPAC top search expand
 description = Expands top search section on all pages.
 package = easyOPAC
-version = 7.x-4.0.2
+version = 7.x-4.2.1
 core = 7.x
 scripts[] = js/easyddb_search_expand.js
 stylesheets[all][] = css/easyddb_search_expand.css
