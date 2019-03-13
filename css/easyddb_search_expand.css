@@ -30,6 +30,7 @@
 .search-form-extended.not-front.admin-menu .site-header .header-inner .pane-search-form,
 .search-form-extended.page-search.admin-menu .site-header .header-inner .pane-search-form {
   top: 93px;
+  z-index: 300;
 }
 
 .search-form-extended .header-inner .search-extended-button {
@@ -55,4 +56,10 @@ body.search-form-extended.admin-menu .ding2-site-template .site-header + .conten
 body.search-form-extended.front .ding2-site-template .site-header + .content-wrapper,
 body.search-form-extended.page-search .ding2-site-template .site-header + .content-wrapper {
   margin-top: 0px;
+}
+
+body.mobile-search-is-open .site-header .navigation-wrapper,
+body.search-form-extended.extended-search-is-not-open.has-second-level-menu .site-header .pane-search-form {
+  top: 64px;
+  z-index: 300;
 }
